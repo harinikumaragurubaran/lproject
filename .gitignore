@@ -16,7 +16,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # Docker files and directories
-Dockerfile*
+#Dockerfile*
 docker-compose*
 *.log
 
