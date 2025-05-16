@@ -22,5 +22,5 @@ jobs:
       - name: Update Lambda function with new container image
         run: |
           aws lambda update-function-code \
-            --function-name microservice-function \
+            --function-name my_lambda_function \
             --image-uri ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.us-east-1.amazonaws.com/lambda-repo:latest
