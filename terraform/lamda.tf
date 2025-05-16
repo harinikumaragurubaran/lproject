@@ -6,8 +6,8 @@ resource "aws_lambda_function" "lambafunction" {
   runtime       = "nodejs18.x"
   role          = aws_iam_role.lambda_exec.arn
 
-  memory_size   = 1024  # Memory size in MB
-  timeout       = 60    # Timeout in seconds
+  memory_size = 1024 # Memory size in MB
+  timeout     = 60   # Timeout in seconds
 
   environment {
     variables = {
@@ -16,7 +16,7 @@ resource "aws_lambda_function" "lambafunction" {
   }
 
   tags = {
-    Terraform  = "true"
+    Terraform   = "true"
     Environment = "dev"
   }
 }
