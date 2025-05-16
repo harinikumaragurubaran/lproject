@@ -1,4 +1,4 @@
-name: Terraform Apply Missed Changes
+name: Terraform changes
 
 on:
   push:
