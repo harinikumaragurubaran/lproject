@@ -4,6 +4,7 @@
 *.tfstate.*
 *.tfvars
 *.tfvars.json
+*.lock.*
 terraform.rc
 .envrc
 
